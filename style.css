@@ -1,0 +1,46 @@
+body{
+    margin:auto;
+}
+#img{
+    height: 900px;
+    width: 450px;
+   margin: auto;
+}
+/*  Specification boxes Length */
+.memory-width{
+    width: 30%;
+}
+.storage-width{
+    width: 25%;
+}
+.input-width{
+    width: 42%;
+}
+/*  Horizontal Length */
+hr.lightLine{
+border: none;
+height: 1px;
+background: #dddddd;
+width: 60%;
+}
+hr.thickLine{
+border: none;
+height: 2px;
+background: black;
+width: 60%;
+}
+.apply-btn{
+    border: none;
+    color: white;
+    background-color: rgb(211, 83, 60);
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: medium;
+}
+hr.bottomLine{
+     margin-left: 80px;
+    border: none;
+    height: 2px;
+    background:#dddddd;  
+}
