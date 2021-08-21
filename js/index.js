@@ -75,7 +75,7 @@ document.getElementById('promoCode-btn').addEventListener('click', function () {
     const promoCode = document.getElementById('apply-promoCode');
     let promoCodeText = promoCode.value;
     if (promoCodeText == 'stevekaku') {
-        grandTotal.innerText = ('0.8' * totalCostCalculation());
+        grandTotal.innerText = parseFloat('0.8' * totalCostCalculation());
     }
     promoCode.value = '';
 })
