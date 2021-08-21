@@ -1,6 +1,10 @@
 body{
     margin:auto;
 }
+button:focus {
+    outline: 2px solid rgb(22, 22, 22);
+    outline: 5px auto -webkit-focus-ring-color;
+  }
 #img{
     height: 900px;
     width: 450px;

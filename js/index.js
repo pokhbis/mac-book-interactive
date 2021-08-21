@@ -1,4 +1,4 @@
-//total Cost Calculation
+//Total Cost Calculation
 function totalCostCalculation() {
     const bestTotal = document.getElementById('best-price');
     let bestTotalValue = Number(bestTotal.innerText);
@@ -69,7 +69,7 @@ function deliveryCost(deliveryType, withCost) {
 deliveryCost('express-delivery', true);
 deliveryCost('free-delivery', false);
 
-//Apply Promo Code
+//Apply Promo Code & Set Grand Total
 document.getElementById('promoCode-btn').addEventListener('click', function () {
     const grandTotal = document.getElementById('grand-total');
     const promoCode = document.getElementById('apply-promoCode');
